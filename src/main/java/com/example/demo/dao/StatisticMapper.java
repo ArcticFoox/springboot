@@ -6,5 +6,7 @@ import com.example.demo.dto.StatisticDto;
  
 public interface  StatisticMapper {
     public HashMap<String, Object> selectYearLogin(String year);
- 
+    public HashMap<String, Object> selectYearMonthLogin(String yearMonth);
+    public HashMap<String, Object> selectYearMonthDepartLogin(String yearMonth, String depart);
+    public HashMap<String, Object> selectYearMonthDayLogin(String yearMonthDay);
 }
